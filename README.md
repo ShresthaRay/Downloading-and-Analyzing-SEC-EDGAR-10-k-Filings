@@ -217,6 +217,10 @@ __Graph Generation__:
    1. _if __name__ == '__main__':_ Checks if the script is being run directly.
    2. app.run_server(): Runs the Dash application server.
 
+The code for the deployed application runs on port 8050 automatically, when executed. 
+EBITDA v/s Time: https://legendary-pancake-9pppjjgrq4g3pqqj-8050.app.github.dev/
+Total Revenue v/s Time: https://potential-space-memory-rjjjpp5q64v2p97g-8050.app.github.dev/
+
 
 ### <ins>Limitations and Improvements</ins>:
 
