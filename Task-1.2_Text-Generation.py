@@ -1,8 +1,8 @@
 import openai
 from sec_api import ExtractorApi
 
-openai.api_key = "5b0e8de482a9c0852530401777de33e510d536c75e1d4f7ea1ee2702946a7282"
-extractorApi = ExtractorApi("5b0e8de482a9c0852530401777de33e510d536c75e1d4f7ea1ee2702946a7282")
+openai.api_key = "API_KEY_HERE"
+extractorApi = ExtractorApi("API_KEY_HERE")
 
 #My API Key- 5b0e8de482a9c0852530401777de33e510d536c75e1d4f7ea1ee2702946a7282
 
