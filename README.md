@@ -242,7 +242,7 @@ Analyzing the limitations and scope of improvement for each code snippet:
    1. Limitations:
       1. Limited to summarizing specific sections ("1A" and "8" in this case) from SEC EDGAR filings.
       2. Relies heavily on OpenAI's API for text summarization, which may have limitations in accessing and/or summarizing complex financial documents accurately.
-      3. Currently only provides analysis for one company. This can ne improved by optimizing the code to reduce the number of query requests sent to the server.
+      3. Currently only provides analysis for one company. This can be improved by optimizing the code to reduce the number of query requests sent to the server.
 
    2. Improvements:
       1. Increase flexibility to summarize arbitrary sections based on user input, to improve the analysis by taking into account more factors
@@ -255,7 +255,7 @@ Analyzing the limitations and scope of improvement for each code snippet:
    1. Limitations:
       1. Relies on the sec_api and xbrlApi libraries for retrieving XBRL data, which may have limitations or dependencies on third-party services.
       2. Limited to specific financial metrics and visualizations, such as income statements and revenue breakdowns.
-      3. Currently only provides analysis for one company. This can ne improved by optimizing the code to reduce the number of query requests sent to the server.
+      3. Currently only provides analysis for one company. This can be improved by optimizing the code to reduce the number of query requests sent to the server.
 
    2. Improvements:
        1. Expand data retrieval capabilities to include a broader range of financial metrics and statements, such as balance sheets, cash flow statements, etc.
