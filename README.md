@@ -221,6 +221,33 @@ The code for the deployed application runs on port 8050 automatically, when exec
 1. EBITDA v/s Time: https://legendary-pancake-9pppjjgrq4g3pqqj-8050.app.github.dev/
 2. Total Revenue v/s Time: https://potential-space-memory-rjjjpp5q64v2p97g-8050.app.github.dev/
 
+__Reasons for choosing the above factors for analysis:__
+
+<ins>_EBITDA v/s Time Analysis:_</ins>
+
+EBITDA provides insights into operating profitability, cash flow, financial health, comparative analysis, investment decisions, debt servicing capacity, and valuation, making it a valuable metric for assessing a company's overall performance. It further helps in:
+
+1. Performance Tracking: Graphs track EBITDA trends over time.
+2. Financial Health: Assess operational efficiency and profitability.
+3. Investment Insight: Aid investors in evaluating opportunities.
+4. Comparative Analysis: Compare EBITDA across companies.
+5. Strategic Planning: Inform optimization strategies.
+6. Communication: Enhance understanding for stakeholders.
+
+
+
+<ins>_Total Revenue v/s Time Analysis:_</ins>
+
+Total revenue provides insights into revenue growth, market demand, product performance, competitive positioning, financial health, investor confidence, and strategic decision making, making it a critical metric for evaluating a company's overall performance and prospects. It further helps in:
+
+1. Performance Tracking: Graphical plots track total revenue trends over time.
+2. Business Growth: Visual representation highlights revenue growth or decline.
+3. Market Insights: Helps understand market demand and economic trends.
+4. Strategic Decision Making: Guides resource allocation and business strategies.
+5. Investor Confidence: Demonstrates business stability and growth potential.
+6. Comparative Analysis: Facilitates comparison with competitors and industry benchmarks.
+7. Communication: Simplifies complex financial data for stakeholders.
+
 
 ### <ins>Limitations and Improvements</ins>:
 
@@ -228,12 +255,12 @@ Analyzing the limitations and scope of improvement for each code snippet:
 
 1. __Code for downloading and analyzing SEC EDGAR 10-K filings using Python:__
 
-   1. _Limitations:_
+   1. Limitations:
       1. Limited Data Coverage: The code does not cover all companies or retrieve filings for certain periods, limiting the scope of analysis.
       2. Dependency on External Libraries: Reliance on the sec_edgar_downloader library might restrict customization or additional functionalities.
       3. Error Handling: Error handling could be improved by stating which kind of error is handled by the except block. This could help in narrowing down the possible errors, leading to faster debugging.
 
-   2. _Improvements:_
+   2. Improvements:
       1. Extended Filings Coverage: Enhance the code to cover a broader range of filings, allowing users to specify the type of filings they want to download and analyze.
       2. Data Validation: Improve data validation mechanisms to ensure the accuracy and completeness of retrieved filings, verifying document integrity and consistency.
       3. Parallel Processing: Implement parallel processing techniques to speed up the download and analysis process, especially for large datasets or multiple companies.
