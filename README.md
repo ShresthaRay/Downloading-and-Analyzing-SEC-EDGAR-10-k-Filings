@@ -4,6 +4,7 @@
 
 Download and analyze Sec-edgar 10-k filings of public firms. Construct and deploy simple app for the same.
 
+---
 
 ### <ins>Introduction:</ins> 
 
@@ -21,6 +22,7 @@ The assignment is done using Python. Python is chosen as the preferred tech stac
 
 Overall, Python's versatility, robustness, and extensive ecosystem make it an ideal choice for analyzing SEC-EDGAR filings, offering a balance of power, simplicity, and efficiency.
 
+---
 
 ### <ins>Task 1.1</ins>:
 
@@ -45,6 +47,7 @@ The program is sub-divided into two modules :
    4. Iterates over each company in the companies list and calls the download_10k_filings function.
    5. Prints a message indicating the download process is complete after downloading filings for all specified companies.
 
+---
 
 ### <ins>Task 1.2</ins>:
 
@@ -153,6 +156,7 @@ Providing a graphical representation of revenue by region and product in SEC EDG
 7. __Guides Strategy:__ Informs decisions on market expansion and resource allocation and highlights revenue concentration risks for mitigation strategies.
 8. __Monitors Performance:__ Demonstrates transparency and accountability to investors and provides ongoing tracking of product revenue.
 
+---
 
 ### <ins>Task 2</ins>:
 
@@ -248,6 +252,7 @@ Total revenue provides insights into revenue growth, market demand, product perf
 6. Comparative Analysis: Facilitates comparison with competitors and industry benchmarks.
 7. Communication: Simplifies complex financial data for stakeholders.
 
+---
 
 ### <ins>Limitations and Improvements</ins>:
 
@@ -317,6 +322,7 @@ Analyzing the limitations and scope of improvement for each code snippet:
       2. Improvement in data preprocessing and validation to ensure consistency and completeness of the financial data, handling missing or inconsistent segments gracefully, and provide necessary user message.
       3.  To allow for comparative analysis between multiple companies, we would also have to include color coding schemes to differentiate between the multiple companies.
 
+---
 
 ### <ins>Sources</ins>:
 1. https://sec-edgar-downloader.readthedocs.io/en/latest/
