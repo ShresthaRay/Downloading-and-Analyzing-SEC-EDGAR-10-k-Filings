@@ -3,8 +3,6 @@ import pandas as pd
 
 API_KEY = 'API_KEY_HERE'
 
-#My API Key- 5b0e8de482a9c0852530401777de33e510d536c75e1d4f7ea1ee2702946a7282
-
 xbrlApi = XbrlApi(API_KEY)
 
 # URL of Google's 10-K filings
